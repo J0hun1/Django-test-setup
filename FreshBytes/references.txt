@@ -1,0 +1,37 @@
+1. install virtualenv 
+    pip install virtualenv
+    python -m venv env<name>
+
+    to activate virtualenv for windows:
+        Scripts\activate 
+
+    to activate for linux:
+        source virtualenv_name/bin/activate
+
+2. initialize django
+    to install django:
+        pip install django
+
+    to check for django version:
+        django-admin --version
+
+    to create project:
+        django-admin startproject <project_name>
+
+    to run the django server:
+        python manage.py runserver
+
+    to run server with custom host:
+        python manage.py runserver localhost:<4digit>
+
+    to migrage manage.py:
+        python manage.py migrate
+
+    to create a superuser
+        python manage.py createsuperuser
+
+    to create a new app:
+        python manage.py startapp home
+
+    to migrate newly made app/changes(every change must be migrated):
+        python manage.py makemigrations
