@@ -33,5 +33,11 @@
     to create a new app:
         python manage.py startapp home
 
+    to create new api:
+        python manage.py startapp api
+
     to migrate newly made app/changes(every change must be migrated):
         python manage.py makemigrations
+
+    to install Django rest framework:
+        pip install djangorestframework 
